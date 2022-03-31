@@ -139,3 +139,25 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+.footer-icon.green-icon{
+    color: #67d669;
+}
+
+.exit-btn{
+    display: flex;
+    height: 100%;
+    width: calc( 100% / 3 );
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-footer{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 7px 28px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+}
