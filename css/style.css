@@ -8,5 +8,46 @@
 }
 
 /*-------------
+   COMMONS
+-------------*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*-------------
    HEADER
 -------------*/
+header{
+    width: 100%;
+    min-height: 60px;
+    background-color: #111111;
+}
+
+.container-header{
+    display: flex;
+}
+
+.container-header > div{
+    width: 50%;
+    margin-top: 15px;
+}
+ 
+.col-right-header{
+    text-align: right;
+}
+
+.header-icon{
+    color: white;
+    background-color: #0a0b0b;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.header-icon i {
+    margin: 0px 5px;
+}
+
+.green-icon{
+    color: #67d669;
+}
